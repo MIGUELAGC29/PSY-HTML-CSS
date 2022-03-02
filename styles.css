@@ -24,7 +24,7 @@
 
 header {
     font-family: 'Lobster';
-    height: 200px;
+    height: 292px;
 }
 
 nav ul li a{
@@ -32,7 +32,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid white;
 
 }
 
@@ -40,9 +40,16 @@ nav ul li a:hover{
     border: 1px solid red;
 }
 
+.text-tittle{
+    font-size: 65px !important;
+}
+
 
 @media (max-width: 991.98px) {
     
+    header{
+        height: 280px;
+    }
 
     .size-card-md{
         width: 15rem !important;
@@ -60,13 +67,51 @@ nav ul li a:hover{
     .title-size{
         font-size: 17px;
     }
+
+    .text-tittle{
+        font-size: 50px !important;
+    }
 }
 
 @media (max-width: 776px) {
+
+    header{
+        height: 184px;
+
+    }
+
+    .a-title{
+        font-size: 20px !important;
+    }
+
+    .img{
+        width: 30px;
+        height: 24px;
+        margin-top: 22px !important;
+    }
+
+    .text-tittle{
+        font-size: 40px !important;
+    }
+
+
     .size-card-md{
         width: 12rem !important;
         margin-left: 30px !important;
     }
+
+    .texto-size{
+        font-size: 12px;
+    }
+
+    .title-size{
+        font-size: 15px;
+    }
+
+
+
+
+
 }
 
 @media (max-width: 575.98px) {
@@ -76,7 +121,20 @@ nav ul li a:hover{
     }
 
     .contenedor{
-        padding-right: 22px !important;
+        padding-right: 11px !important;
+    }
+
+    .texto-size{
+        font-size: 17px;
+    }
+
+    .title-size{
+        font-size: 20px;
+    }
+
+    .size-card-md{
+        width: 22rem !important;
+        margin-left: 15px !important;
     }
 
 }
