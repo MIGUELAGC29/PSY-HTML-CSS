@@ -36,6 +36,51 @@ nav ul li a:hover{
 
 }
 
+.targets{
+    border: 1px solid red;
+}
+
+
+@media (max-width: 991.98px) {
+    
+
+    .size-card-md{
+        width: 15rem !important;
+        margin-left: 15px !important;
+    }
+
+    .contenedor{
+        padding-right: 10px !important;
+    }
+
+    .texto-size{
+        font-size: 14px;
+    }
+
+    .title-size{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 776px) {
+    .size-card-md{
+        width: 12rem !important;
+        margin-left: 30px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .size-card-md{
+        width: 17rem !important;
+        
+    }
+
+    .contenedor{
+        padding-right: 22px !important;
+    }
+
+}
+    
 
 
 
