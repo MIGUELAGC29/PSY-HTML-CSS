@@ -42,6 +42,7 @@ nav ul li a:hover{
 
 .text-tittle{
     font-size: 65px !important;
+    padding-left: 0px !important;
 }
 
 
@@ -91,7 +92,7 @@ nav ul li a:hover{
     }
 
     .text-tittle{
-        font-size: 40px !important;
+        font-size: 35px !important;
     }
 
 
@@ -115,27 +116,60 @@ nav ul li a:hover{
 }
 
 @media (max-width: 575.98px) {
-    .size-card-md{
-        width: 17rem !important;
-        
+    .a-title {
+        font-size: 14px !important;
+    }
+
+    .text-tittle{
+        font-size: 21px !important;
+    }
+
+    .img {
+        width: 20px;
+        height: 17px;
+        margin-top: 14px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .listas{
+        margin-top: -11px !important;
+    }
+
+    header{
+        height: 116px !important;
+    }
+
+    nav ul li a:hover{
+        border-bottom: 2px solid white;
+        padding-bottom: 1px;
+    
+    }
+
+    .carousel-inner{
+        height: 150px !important;
+    }
+
+    .image{
+        height: 150px !important;
+    }
+
+    .cardita{
+        width: 12rem !important;
     }
 
     .contenedor{
-        padding-right: 11px !important;
+        padding-right: 21px !important;
     }
 
     .texto-size{
-        font-size: 17px;
+        font-size: 11px;
     }
 
     .title-size{
-        font-size: 20px;
+        font-size: 14px;
     }
 
-    .size-card-md{
-        width: 22rem !important;
-        margin-left: 15px !important;
-    }
+    
 
 }
     
